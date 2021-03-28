@@ -6,21 +6,21 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <header class="header-image">
+    <header class="header__image">
       <img src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
-      <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <a class="header__image-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
-    <main class="main-wrapper">
-      <section id="add-item">
-        <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
-          <input id="new-task" class="task" type="text">
+    <main class="main__wrapper">
+      <section id="add__item">
+        <label for="new__task">Add Item</label>
+        <div class="new__task-wrapper">
+          <input id="new__task" class="task" type="text">
           <button>Add</button>
         </div>
       </section>
       <section>
         <h3>Todo</h3>
-        <ul id="incomplete-tasks">
+        <ul id="incompleted__tasks">
           <li>
             <input type="checkbox">
             <label class="task">Pay Bills</label>
@@ -30,7 +30,7 @@
               <img src="./remove.svg" alt="remove button">
             </button>
           </li>
-          <li class="edit-mode">
+          <li class="incompleted__tasks-edit">
             <input type="checkbox">
             <label class="task">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task">
@@ -43,7 +43,7 @@
       </section>
       <section>
         <h3>Completed</h3>
-        <ul id="completed-tasks">
+        <ul id="completed__tasks">
           <li>
             <input type="checkbox" checked>
             <label class="task">See the Doctor</label>
